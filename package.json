@@ -6,8 +6,6 @@
   "types": "dist/index.d.ts",
   "files": [
     "dist",
-    "dist/",
-    "dist/index.js",
     "package.json",
     "LICENSE",
     "README.md"
@@ -30,8 +28,7 @@
     "prettier": "prettier --write .",
     "lint": "prettier --check .",
     "prepublishOnly": "npm run build",
-    "prepare": "npm run build",
-    "postinstall": ""
+    "prepare": "npm run build"
   },
   "dependencies": {
     "openapi3-ts": "^3.1.1"
